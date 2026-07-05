@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7d0fec8-6c5d-4125-beda-049590fe6cd8">
+  <producedTypes>
+    <objectType typeId="c4fb16a2-e96d-448f-a0e0-2a5dffa75792" valueTypeId="72a20820-f2eb-4b82-a653-00a8f5a56924"/>
+    <managerType typeId="4db24114-d43f-493f-935a-0eed4fa6a462" valueTypeId="9164637e-5c6a-4e13-a8e4-2dca4a9bd904"/>
+  </producedTypes>
+  <name>ВКМ_ЗаполнениеГрафика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение графика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВКМ_ЗаполнениеГрафика.Form.Форма</defaultForm>
+  <attributes uuid="e2c129ee-8c91-4e84-bd07-0609d321f17c">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ВидыГрафиков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b331a328-22c2-43a7-93f2-3a642dbd991a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

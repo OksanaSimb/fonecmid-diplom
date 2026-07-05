@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="525bc0fc-0863-4962-beef-40eace8c3889">
+  <producedTypes>
+    <selectionType typeId="4777e7cf-b6d2-4b64-91f8-860ae293bbcb" valueTypeId="585915e1-db50-44d7-9cd2-5fecbada2b4f"/>
+    <listType typeId="aa9f9e34-28d2-4299-89e1-f01e7dffd9a2" valueTypeId="1c19be04-05a7-4dd6-83c9-886d08ad4408"/>
+    <managerType typeId="974a21bd-b7ad-4a73-a6aa-1f24593b4c86" valueTypeId="c94a01d9-36b6-454d-8fb7-1f06a9c60fcd"/>
+    <recordSetType typeId="fcf28b6a-edb7-46e8-a28b-fbb1e8b46721" valueTypeId="c61d058f-a571-4f2b-be34-75e1fd8d0a13"/>
+    <recordKeyType typeId="bf6ef95f-d415-4271-ab99-0b0564072328" valueTypeId="7c751ebe-25f8-4583-a2ce-e4302bc9e1d4"/>
+    <recordType typeId="01dbd316-8dc7-4689-ae18-956028a5ca4d" valueTypeId="b458e41d-8106-40ba-a8ff-6749f7a1960b"/>
+  </producedTypes>
+  <name>ВКМ_ПлановыеОтпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плановые отпуска</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="30b69536-98c7-413f-ad56-d379059db87c">
+    <name>ДниПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дни план</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВКМ_Числовой</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="3b140df1-2f18-4109-91d2-61606447e9fc">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a9b3230f-daea-415d-a357-f72438c4373b">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

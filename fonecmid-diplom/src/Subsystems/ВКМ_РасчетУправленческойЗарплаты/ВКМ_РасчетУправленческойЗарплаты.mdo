@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85362357-7140-4292-a382-7b2c54de9857">
+  <name>ВКМ_РасчетУправленческойЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет управленческой зарплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ИконкаНетология</picture>
+  </picture>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>Catalog.ВКМ_ВидыГрафиков</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>Catalog.ВКМ_Подразделения</content>
+  <content>Document.ВКМ_НачисленияЗарплаты</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>CommandGroup.ВКМ_Регистры</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Catalog.ВКМ_Сотрудники</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>AccumulationRegister.ВКМ_ПлановыеОтпуска</content>
+  <content>AccumulationRegister.ВКМ_ФактическиеОтпуска</content>
+  <content>Report.ВКМ_ПланированиеОтпусков</content>
+</mdclass:Subsystem>

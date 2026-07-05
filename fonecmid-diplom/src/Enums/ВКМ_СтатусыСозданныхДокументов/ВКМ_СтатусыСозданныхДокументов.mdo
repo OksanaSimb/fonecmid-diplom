@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="306d477f-8d8c-44d4-8770-1d5f51bbb8b7">
+  <producedTypes>
+    <refType typeId="f6b8f228-354f-4dee-91b9-d3672a07f9c5" valueTypeId="1203bdbd-1d59-45a7-b8d6-77ec4257754f"/>
+    <listType typeId="b5e7a7fb-f2bc-476a-8c0a-e04e6696046a" valueTypeId="05edc568-5bce-48ae-aec5-3029b706bdc0"/>
+    <managerType typeId="bf61f119-2d5d-461d-8a9e-96fc8f91359c" valueTypeId="d7f76130-e839-4bf6-90a2-94391af64af5"/>
+  </producedTypes>
+  <name>ВКМ_СтатусыСозданныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы созданных документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="02630ecf-7835-4448-bc1a-92d853b98dd1">
+    <name>СозданПрограммно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создан программно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7dabb229-54a9-44ea-83b1-a85692645f1c">
+    <name>ДобавленИзСуществующих</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлен из существующих</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
