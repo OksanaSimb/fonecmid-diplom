@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d961383d-e306-4117-b8e4-acf602030016">
+  <name>ВКМ_ПолучениеКонстантыСерверВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение константы сервер вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

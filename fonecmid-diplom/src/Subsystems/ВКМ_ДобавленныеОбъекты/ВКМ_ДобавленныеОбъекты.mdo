@@ -59,4 +59,5 @@
   <content>AccumulationRegister.ВКМ_ПлановыеОтпуска</content>
   <content>AccumulationRegister.ВКМ_ФактическиеОтпуска</content>
   <content>Report.ВКМ_ПланированиеОтпусков</content>
+  <content>CommonModule.ВКМ_ПолучениеКонстантыСерверВызовСервера</content>
 </mdclass:Subsystem>

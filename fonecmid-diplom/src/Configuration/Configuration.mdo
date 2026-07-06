@@ -891,6 +891,7 @@
   <commonModules>CommonModule.ВКМ_Телеграм</commonModules>
   <commonModules>CommonModule.ВКМ_АвтозаполнениеТЧДокументовСервер</commonModules>
   <commonModules>CommonModule.ВКМ_АвтозаполнениеТЧДокументовВызовСервера</commonModules>
+  <commonModules>CommonModule.ВКМ_ПолучениеКонстантыСерверВызовСервера</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
